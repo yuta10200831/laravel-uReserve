@@ -8,6 +8,7 @@
         "php": "^8.0.2",
         "barryvdh/laravel-debugbar": "^3.13",
         "guzzlehttp/guzzle": "^7.2",
+        "inertiajs/inertia-laravel": "^1.1",
         "laravel/framework": "^9.19",
         "laravel/jetstream": "^3.0",
         "laravel/sanctum": "^3.0",
