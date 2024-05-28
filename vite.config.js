@@ -14,4 +14,14 @@ export default defineConfig({
             ],
         }),
     ],
+    build: {
+        outDir: 'public/build', // ビルドファイルの出力先を指定
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    vendor: ['vue', 'axios', 'alpinejs'], // 例: 必要に応じて調整
+                },
+            },
+        },
+    },
 });
