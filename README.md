@@ -55,4 +55,4 @@ APP_URL=http://127.0.0.1:8000
 Tailwindcss 3.xの、JustInTime機能により、
 使ったHTML内クラスのみ反映されるようになっていますので、
 HTMLを編集する際は、
-npm run watch も実行しながら編集するようにしてください。
+npm run div も実行しながら編集するようにしてください。
